@@ -1,0 +1,208 @@
+<!-- doctype -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-book Landing Page</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- Swiper CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- nav section, transparent with single button -->
+    <!-- hero section, two-column: text with white bg and image with accent background -->
+    <section id="hero" class="hero vh-100 d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <!-- text section -->
+                <div class="col-lg-8 my-auto">
+                    <h1 class="mb-3">
+                        Web Dev Unleashed: A Beginner's Guide to Building Modern Websites
+                    </h1>
+                    <p class="sub-text mb-5">
+                        A Beginner's Guide to Building Modern Websites, learn about
+                        different techniques, methods, processes, trends of industry. Learn growth hacks, skills,
+                        strategies
+                    </p>
+                    <a href="#" class="main-btn">Order Now</a>
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/E- book Cover.jpg" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- book description, two rows; first with text, accent color. second with two-column; text and image -->
+    <section class="book-description section-padding">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-9 me-auto mx-5">
+                    <p class="sub-text">
+                        Unlock the secrets of web development with Web Dev Unleashed! Whether you're a complete beginner
+                        or looking to refine your skills,
+                        this comprehensive guide covers everything you need to know to build modern, responsive
+                        websites.
+                    </p>
+                </div>
+            </div>
+            <!-- two-column book synopsis -->
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+                    <h2 class="mb-5">What’s In The Book</h2>
+                    <p class="mb-5">Dive into the world of web development with Web Dev Unleashed. This book is designed
+                        for beginners who want to
+                        learn how to create professional, responsive websites from scratch. You'll start with the
+                        fundamentals of HTML and CSS,
+                        move on to more advanced topics like JavaScript and front-end frameworks, and even get tips on
+                        deploying your site.
+                        Packed with practical examples and exercises, this guide will equip you with the skills
+                        you need to bring your web development projects to life.</p>
+                    <ul>
+                        <li>Easy-to-follow tutorials and step-by-step instructions</li>
+                        <li>Real-world examples to help you understand key concepts</li>
+                        <li>A comprehensive guide to HTML, CSS, and JavaScript</li>
+                        <li>Tips and tricks from experienced web developers</li>
+                        <li>Introduction to popular front-end frameworks like React and Bootstrap</li>
+                        <li>Advice on best practices for responsive design and site optimization</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mx-auto">
+                    <img src="img/E- book Cover.jpg" alt="book cover" width="240px">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- author bio, two-column; image and text -->
+    <section class="author-bio section-padding">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-3 mx-5">
+                    <img src="img/person-1.jpg" alt="book cover" width="240px">
+                </div>
+                <div class="col-lg-7">
+                    <h2 class="mb-5">About The Author</h2>
+                    <p class="mb-5">[Your Name] is a passionate web developer with over [X] years of experience in the
+                        industry.
+                        They specialize in front-end development and have a knack for making complex concepts easy to
+                        understand.
+                        Through their blog, [Your Blog Name], and various online courses, they have helped thousands of
+                        beginners learn the art
+                        of web development. When they're not coding,
+                        [Your Name] enjoys exploring the latest trends in technology and sharing their knowledge with
+                        the community.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- newsletter section -->
+    <section class="section-padding">
+        <div class="newsletter">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-8 text-center mx-auto mb-5">
+                        <!-- Newsletter text -->
+                        <h2 class="mb-4">Stay Connected</h2>
+                        <p>Join the Newsletter for new updates. I plan bring more and new exciting content
+                            regarding web development for which will be beginner friendly as well as for professionals.
+                        </p>
+                    </div>
+                    <!-- Newsletter email block -->
+                    <form class="d-flex email-block mx-auto">
+                        <input type="email" class="form-control" placeholder="Email Address" />
+                        <button type="submit" class="main-btn ms-3">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial, single slide per view, js slider library -->
+    <section class="testimonials section-padding">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h2>What Our Critic Says?</h2>
+                </div>
+            </div>
+            <!-- js slider -->
+            <div class="row">
+                <div class="col-8 mx-auto">
+                    <div class="testimonial-content">
+                        <div class="swiper testimonial-slider js-testimonials-slider mb-2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide testimonial-item">
+                                    <div class="info">
+                                        <img src="img/person-3.jpg" alt="" class="mb-4">
+                                        <div class="text-box mb-4">
+                                            <h3>Jason Walker</h3>
+                                            <span>Web Developer, ACC Studio</span>
+                                        </div>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                        Eius voluptates ex beatae optio cum dolores minima aperiam enim quos tempore.
+                                    </p>
+                                </div>
+                                <div class="swiper-slide testimonial-item">
+                                    <div class="info">
+                                        <img src="img/person-4.jpg" alt="" class="mb-4">
+                                        <div class="text-box mb-4">
+                                            <h3>Ash Gray</h3>
+                                            <span>Web Designer, Meta</span>
+                                        </div>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique adipisci 
+                                        fuga necessitatibus repellendus autem explicabo cupiditate. Porro quae adipisci reprehenderit?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination js-testimonials-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- purchase section, two-column layout like hero with image bg -->
+    <section class="purchase-link">
+        <div class="container">
+            <div class="row py-5">
+                <!-- text section -->
+                <div class="col-lg-8 my-auto">
+                    <h2 class="mb-3">
+                        Web Dev Unleashed: A Beginner's Guide to Building Modern Websites
+                    </h2>
+                    <p class="mb-5">
+                        A Beginner's Guide to Building Modern Websites, learn about
+                        different techniques, methods, processes, trends of industry. Learn growth hacks, skills,
+                        strategies
+                    </p>
+                    <a href="#" class="main-btn">Order Now</a>
+                </div>
+                <div class="col-lg-4 ms-auto">
+                    <img src="img/E- book Cover.jpg" alt="" width="220px">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section class="footer">
+        <div class="container">
+            <p class="py-3 small-text">2024 All Rights Reserved | Privacy Policy | Cookie Settings</p>
+        </div>
+    </section>
+    <!-- Bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- JS slider library -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <!-- Custom JS -->
+</body>
+
+</html>

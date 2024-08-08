@@ -8,17 +8,16 @@
 :root {
     --color-black: #000;
     --color-white: #ffff;
-    --color-accent-1: #223470;
-    --color-accent-2: #f4b942;
-    --color-bg: rgba(34, 52, 112, 0.95);
+    --color-accent-1: #2C3E50;
+    --color-accent-2: #2ECC71;
+    --color-accent-3: #F4F4F4;
     --font-h1: 3rem;
     --font-h2: 2.25rem;
     --font-h3: 2rem;
     --font-h6: 1.25rem;
     --font-small: 0.6rem;
     --ff: "Montserrat", sans-serif;
-    --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    --box-shadow-cover: rgba(34, 52, 112, 0.5) 0px 7px 29px 0px;
+    --box-shadow: rgba(127, 17, 224, 0.25) 0px 7px 29px 0px;
 }
 body {
     background-color: var(--color-white);
@@ -72,7 +71,7 @@ p {
 .main-btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: var(--color-accent-2);
+    background-color: var(--color-accent-1);
     color: #fff;
     text-decoration: none;
     border: 2px solid var(--color-accent-2);
@@ -84,22 +83,34 @@ p {
   .main-btn:hover {
     background-color: var(--color-white);
     color: var(--color-accent-2);
-    font-weight: 600;
     scale: 1.05;
+  }
+
+  .sec-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--color-white);
+    color: var(--color-accent-2);
+    text-decoration: none;
+    border: none;
+    border-radius: 24px;
+    transition: background-color 0.2s ease;
+    font-size: 1.125rem;
+  }
+  .sec-btn:hover {
+    scale: 1.05;
+    font-weight: 600;
   }
   
 /* hero */
 .hero {
-    background-color: var(--color-bg);
-}
-.hero img {
-    box-shadow: var(--box-shadow-cover);
+    background-color: var(--color-accent-2);
 }
 .hero h1 {
-    color: var(--color-accent-2);
+    color: var(--color-accent-3);
 }
 .hero .sub-text {
-    color: var(--color-white);
+    color: var(--color-accent-3);
 }
 
 /* book description */
@@ -114,7 +125,7 @@ p {
     line-height: 1.6;
 }
 .book-description img {
-    box-shadow: var(--box-shadow-cover);
+    box-shadow: var(--box-shadow);
 }
 /* author bio */
 .author-bio h2 {
@@ -143,21 +154,21 @@ p {
 }
 /* testimonial JS slider */
 .testimonials {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 .testimonials h2 {
     color: var(--color-accent-1);
 }
 .testimonial-item {
-    color: var(--color-white);
-    background-color: var(--color-accent-2);
+    color: var(--color-black);
+    background-color: var(--color-accent-3);
     padding: 24px; 
     border-radius: 36px;
 }
 .testimonial-item img {
     height: 80px;
     width: 80px;
-    border: 2px solid var(--color-white);
+    border: 2px solid var(--color-accent-2);
     border-radius: 50%;
     object-fit: cover;
     vertical-align: top;
@@ -181,22 +192,21 @@ p {
 .testimonials .swiper-pagination-bullet {
     height: 12px;
     width: 12px;
-    background-color: var(--color-accent-2);
+    background-color: var(--color-accent-1);
 }
 
 /* purchase section */
 .purchase-link {
-    background-color: var(--color-bg);
+    background-color: var(--color-accent-1);
 }
 .purchase-link h2 {
-    color: var(--color-white);
+    color: var(--color-accent-2);
 }
 .purchase-link p {
-    color: var(--color-white);
+    color: var(--color-accent-3);
 }
 .purchase-link img {
     transform: rotate(20deg);
-    box-shadow: var(--box-shadow-cover);
 }
 
 /* footer */
